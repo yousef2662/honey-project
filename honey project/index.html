@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/all.min.css">
+  <title>Document</title>
+</head>
+
+<body>
+  <header>
+    <div class="container">
+      <h2>مناحل أبو يوسف</h2>
+      <div class="descrip">
+        <h1>نقدم لك خدمه ممتاذه</br>عن طريق اجود انواع العسل </br>ومنتجات اخري لا تقارن بغيرها</h1>
+        <a href="#products">
+          <button>المنتجات الخاصه بنا</button>
+        </a>
+      </div>
+      <div class="images-left">
+        <img class="honey" src="photos/honey-main.png">
+        <img class="bee" src="photos/Bee.png">
+      </div>
+      <div class="images-left-mobile">
+        <img class="honey" src="photos/honey-main.png">
+      </div>
+      <div class="go-to-pay-container-mobile">
+        <h3 class="go-to-pay-mobile">الذهاب</br>الي الدفع</h3>
+        <div class="arrow-mobile">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </div>
+    </div>
+  </header>
+  <section id="products" class="products">
+    <nav class="cart-for-mobile">
+      <a href="cart.html">
+        <i class="fa-solid fa-cart-shopping"><span>0</span></i>
+      </a>
+    </nav>
+    <div class="container">
+      <div class="pro-card">
+        <img src="photos/test.jpg">
+        <h1>you</h1>
+        <div class="order">
+          <button onclick="updateCartMain1()">اضف الي<i class="fa-solid fa-cart-shopping"></i></button>
+          <i class="fa-solid fa-plus" onclick="increase1()"></i>
+          <div class="amount amount-show"></div>
+          <i class="fa-solid fa-minus" onclick="decrease1()"></i>
+        </div>
+      </div>
+      <div class="pro-card">
+        <img src="photos/test.jpg">
+        <h1>you</h1>
+        <div class="order">
+          <button onclick="updateCartMain2()">اضف الي<i class="fa-solid fa-cart-shopping"></i></button>
+          <i class="fa-solid fa-plus" onclick="increase2()"></i>
+          <div class="amount amount-show">0</div>
+          <i class="fa-solid fa-minus" onclick="decrease2()"></i>
+        </div>
+      </div>
+      <div class="pro-card">
+        <img src="photos/test.jpg">
+        <h1>you</h1>
+        <div class="order">
+          <button onclick="updateCartMain3()">اضف الي<i class="fa-solid fa-cart-shopping"></i></button>
+          <i class="fa-solid fa-plus" onclick="increase3()"></i>
+          <div class="amount amount-show">0</div>
+          <i class="fa-solid fa-minus" onclick="decrease3()"></i>
+        </div>
+      </div>
+      <div class="pro-card">
+        <img src="photos/test.jpg">
+        <h1>you</h1>
+        <div class="order">
+          <button onclick="updateCartMain4()">اضف الي<i class="fa-solid fa-cart-shopping"></i></button>
+          <i class="fa-solid fa-plus" onclick="increase4()"></i>
+          <div class="amount amount-show">0</div>
+          <i class="fa-solid fa-minus" onclick="decrease4()"></i>
+        </div>
+      </div>
+      <a href="cart.html" class="the-cart">
+        <i class="fa-solid fa-cart-shopping"><span class="cart-amount-js">0</span></i>
+      </a>
+      <h3 class="go-to-pay">الذهاب</br>الي الدفع</h3>
+      <div class="arrow">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </div>
+  </section>
+  <section class="contact">
+    <div class="container">
+      <div class="phone-photo">
+        <div class="square"></div>
+        <img src="photos/phone.png">
+      </div>
+      <div class="contact-information">
+        <h1>معلومات التواصل</h1>
+        <h2 class="phone-number">01019946187</h2>
+        <h2 class="email">simp@gmail.com</h2>
+        <h2 class="adress">كفرالشيخ - الرياض - الشراقوه</h2>
+      </div>
+      <h2 class="developed-by">
+        Developed by:<a href="https://www.facebook.com/share/1BaNUx7nf3/?mibextid=wwXIfr">Yousef</a>
+      </h2>
+    </div>
+  </section>
+  <footer>
+    <h1>© 2025 Fathy</h1>
+  </footer>
+  <script src="js/main.js"></script>
+</body>
+
+</html>
