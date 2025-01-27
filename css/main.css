@@ -34,7 +34,7 @@ header {
 
 @media (max-width: 768px){
   header{
-    height: 125vh;
+    height: 135vh;
     width: 100%;
   }
 }
@@ -342,9 +342,10 @@ header .container .images-left-mobile{
     justify-content: center;
     gap: 2rem;
     justify-self: flex-end;
-    padding-top:3rem;
-    padding-bottom: .5rem;
-    height: 20rem;
+    padding-top:4rem;
+    padding-bottom: 4rem;
+    height: 25rem;
+    background-color: red;
   }
 
   header .container .go-to-pay-mobile{
@@ -773,7 +774,7 @@ footer h1{
 
 @media (max-width: 768px) {
   .contact{
-    height: 90vh;
+    height: 120vh;
   }
 
   .contact .container .contact-information{
