@@ -212,7 +212,7 @@ section .container{
   }
 }
 
-.added-products .descrip-and-amount .amount-control input{
+.added-products .descrip-and-amount .amount-control .amount{
   width: 5rem;
   padding: .1rem .4rem;
   border-radius: 15px;
